@@ -55,7 +55,7 @@ function App() {
       </div>
 
       <section class="hero" id="about">
-        <img src="src/face_pic.jpg" alt="face-pic" loading="lazy" class="hero-img" />
+        <img src="/face_pic.jpg" alt="face-pic" loading="lazy" class="hero-img" />
         <div class="bio animate__animated animate__shakeX">
           <h2 class="bio-title">¡Bienvenido a mi portfolio!</h2>
           <p class="bio-text">
@@ -85,18 +85,18 @@ function App() {
         <h2 class="skill-header">Habilidades</h2>
         <div class="skills-wrapper">
           <div class="first-set animate__animated animate__pulse">
-            <img src="src/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
-            <img src="src/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
-            <img src="src/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
           </div>
           <div class="second-set animate__animated animate__pulse">
-            <img src="src/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
-            <img src="src/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
-            <img src="src/icons8-github.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="/icons8-github.svg" alt="" loading="lazy" class="icon icon-card" />
           </div>
           <div class="second-set animate__animated animate__pulse">
-            <img src="src/icon-sql.svg" alt="" loading="lazy" class="icon icon-card" />
-            <img src="src/icons8-python.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="/icon-sql.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="/icons8-python.svg" alt="" loading="lazy" class="icon icon-card" />
           </div>
         </div>
       </section>
@@ -105,7 +105,7 @@ function App() {
         <h2 class="projects-title">Algunos de mis proyectos</h2>
         <div class="projects-container">
           <div class="project-container project-card">
-            <img src="src/YNG-logo.png" alt="your-nomad-guide" loading="lazy" class="project-pic" />
+            <img src="/YNG-logo.png" alt="your-nomad-guide" loading="lazy" class="project-pic" />
             <h3 class="project-title">Your Nomad Guide</h3>
             <p class="project-details">
               Sitio web que sirve de guía para nómades digitales que quieren saber datos de lugares que desean visitar.
@@ -113,7 +113,7 @@ function App() {
             <a href="#" target="_blank" class="project-link">Ver</a>
           </div>
           <div class="project-container project-card">
-            <img src="src/proyecto-ig.png" alt="instagram-bootstrap" loading="lazy" class="project-pic" />
+            <img src="/proyecto-ig.png" alt="instagram-bootstrap" loading="lazy" class="project-pic" />
             <h3 class="project-title">Instagram con Bootstrap</h3>
             <p class="project-details">
               Utilizando Bootstrap, hice una elaboración a modo de réplica de cómo se ve el feed de la versión web.
@@ -121,7 +121,7 @@ function App() {
             <a href="#" target="_blank" class="project-link">Ver</a>
           </div>
           <div class="project-container project-card">
-            <img src="src/sw-blog.png" alt="sw-blog" loading="lazy" class="project-pic" />
+            <img src="/sw-blog.png" alt="sw-blog" loading="lazy" class="project-pic" />
             <h3 class="project-title">Star Wars Blog</h3>
             <p class="project-details">
               Blog que contiene toda la información sobre contenido de la saga Star Wars.
@@ -155,14 +155,14 @@ function App() {
       </section>
 
       <div class="socials">
-        <a href="https://www.linkedin.com/in/artin-kemanian/" target="_blank" ><img src="src/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
-        <a href="https://github.com/Artin-Kemanian" target="_blank" ><img src="src/icons8-github.gif" alt="Github" class="socicon" /></a>
-        <a href="https://www.instagram.com/artinkemanian/" target="_blank" ><img src="src/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon" /></a>
-        <a href="#" target="_blank" ><img src="src/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socicon" /></a>
+        <a href="https://www.linkedin.com/in/artin-kemanian/" target="_blank" ><img src="/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+        <a href="https://github.com/Artin-Kemanian" target="_blank" ><img src="/icons8-github.gif" alt="Github" class="socicon" /></a>
+        <a href="https://www.instagram.com/artinkemanian/" target="_blank" ><img src="/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon" /></a>
+        <a href="#" target="_blank" ><img src="/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socicon" /></a>
       </div>
 
       <i class="scroll-up" id="scroll-up" onClick={scrollToTop}>
-        <img src="src/icons8-upward-arrow.gif" class="socicon up-arrow" alt="" />
+        <img src="/icons8-upward-arrow.gif" class="socicon up-arrow" alt="" />
       </i>
 
       <footer>
