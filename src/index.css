@@ -94,7 +94,7 @@ nav ul li {
 }
 
 /* Reloj */
-.reloj{
+.watch{
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -243,6 +243,14 @@ nav ul li {
   padding: 5px;
 }
 
+.projects-disabled {
+  display: block;
+  color: var(--primary-color);
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-justify: newspaper;
+}
+
 /* Contacts section */
 .contact {
   margin-top: 4rem;
@@ -287,11 +295,12 @@ nav ul li {
 }
 
 .input-field::placeholder {
-  color: var(--secondary-color);
+  color: var(--primary-shadow);
 }
 
 textarea::placeholder{
   font-family: "Arial";
+  color: var(--primary-shadow);
 }
 
 .submit-btn {

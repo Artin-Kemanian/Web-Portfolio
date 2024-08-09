@@ -2,12 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import AboutMe from './components/AboutMe';
+import Abilities from './components/Abilities';
+import Contact from './components/Contact';
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Projects from './components/Projects';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Navbar />
+    <AboutMe />
+    <Abilities />
+    <Projects />
+    <Contact />
+    <Footer />
   </React.StrictMode>
 );
 
