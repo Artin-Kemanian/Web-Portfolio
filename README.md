@@ -1,3 +1,38 @@
+# README PROPIO
+
+# Developer Portfolio
+
+Hola, qué tal? Aquí les presento mi portfolio web en el cual me presento a mí y a mis conocimientos. ¡Espero sea de su agrado!
+
+## Author
+
+Artín Kemanian
+
+## Github repo
+
+Aquí dejo el [link]() al repositorio del proyecto.
+
+## Sample Website
+
+En el siguiente link se puede ver una demo en vivo del sitio: [link]()
+
+## Stack de tecnologías
+
+**Cliente:** HTML, CSS, Vanilla JavaScript, React
+
+## Herramientas usadas
+
+- [Ion Icons](https://ionic.io/ionicons) for hamburger menu bar
+- [Drawkit](https://www.drawkit.io/) for Jane Doe illustration
+- [Icon8](https://icons8.com/) for animated icons and skills icons
+- [Animate CSS](https://animate.style/) for Jane Doe's bio text animation
+- [Formspree](https://formspree.io/) for contact form submision and straight delivery to Gmail
+
+REPOSITORIO USADO DE REFERENCIA: https://github.com/Ksound22/developer-portfolio
+
+
+# README DE PLANTILLA
+
 # GitHub Codespaces ♥️ React
 
 Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.

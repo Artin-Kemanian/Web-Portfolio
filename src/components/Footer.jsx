@@ -3,9 +3,8 @@ function Footer() {
     return (
         <footer>
             <div>
-            <p>artinkemanian@hotmail.com</p>
+                <p>https://github.com/Artin-Kemanian/Web-Portfolio</p>
             </div>
-        
         </footer>
     )
 }
