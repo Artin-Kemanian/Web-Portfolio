@@ -8,22 +8,28 @@ import Contact from './components/Contact';
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Projects from './components/Projects';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Navbar />
-    <AboutMe />
-    <Abilities />
-    <Projects />
-    <Contact />
-    <Footer />
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/Web-Portfolio" element={
+          <>
+            <App />
+            <AboutMe /> {/* AboutMe aparece solo en la ruta "/" */}
+          </>
+        } />
+        <Route path="/Web-Portfolio/abilities" element={<Abilities />} />
+        <Route path="/Web-Portfolio/projects" element={<Projects />} />
+        <Route path="/Web-Portfolio/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </Router>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

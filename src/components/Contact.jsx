@@ -1,5 +1,4 @@
 function Contact() {
-
     // function desaparecerPlaceholder() {
     //     var noPlaceholder = document.getElementsByName("placeholder");
     //     var siInput = document.getElementsByTagName("Input")
@@ -9,9 +8,7 @@ function Contact() {
     //       noPlaceholder.textContent = ""
     //     }
     //   }
-      
     // desaparecerPlaceholder()
-
     return (
         <section class="contact" id="contact">
             <h2>Contáctame</h2>
