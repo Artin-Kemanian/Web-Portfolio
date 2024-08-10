@@ -15,19 +15,39 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/Web-Portfolio" element={
-          <>
-            <App />
-            <AboutMe /> {/* AboutMe aparece solo en la ruta "/" */}
-          </>
-        } />
-        <Route path="/Web-Portfolio/abilities" element={<Abilities />} />
-        <Route path="/Web-Portfolio/projects" element={<Projects />} />
-        <Route path="/Web-Portfolio/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
+      <div class="app-container">
+        <Navbar />
+        <div class="main">
+          <Routes>
+            <Route path="/Web-Portfolio" element={
+              <>
+                <App />
+                <AboutMe />
+              </>
+            } />
+            <Route path="/Web-Portfolio/abilities" element={
+              <>
+                <App />
+                <Abilities />
+              </>
+            } />
+            <Route path="/Web-Portfolio/projects" element={
+              <>
+                <App />
+                <Projects />
+              </>
+            } />
+            <Route path="/Web-Portfolio/contact" element={
+              <>
+                <App />
+                <Contact />
+              </>
+            } />
+          </Routes>          
+        </div>
+        <Footer class="footer" />
+      </div>
+
     </Router>
   </React.StrictMode>
 );

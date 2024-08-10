@@ -19,6 +19,8 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
 }
 
 /* CSS Resets */
@@ -38,6 +40,8 @@ a {
 
 body {
   font-family: var(--font-family);
+  height: 100%;
+  margin: 0;
 }
 
 section {
@@ -186,7 +190,7 @@ nav ul li {
 /* Projects section */
 .projects {
   background-color: var(--bg-color);
-  padding: 32px;
+  padding: 2rem;
   margin-top: 4rem;
   border-radius: 10px;
 }
@@ -211,7 +215,7 @@ nav ul li {
 .project-container {
   text-align: center;
   width: 21.875rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .project-container p {
@@ -332,6 +336,7 @@ textarea::placeholder{
 }
 
 .socicon {
+  border-radius: 50%;
   width: 2rem;
   height: 2rem;
 }
@@ -340,11 +345,12 @@ textarea::placeholder{
 .scroll-up {
   position: fixed;
   right: 0.5%;
-  bottom: 3%;
+  bottom: 2%;
   cursor: pointer;
 }
 
 .up-arrow {
+  border-radius: 50%;
   width: 3rem;
   height: 3rem;
 }
@@ -353,9 +359,19 @@ textarea::placeholder{
 footer {
   color: var(--primary-color);
   background-color: var(--bg-color);
-  padding: 1.25rem;
+  padding: 1rem;
   text-align: center;
-  margin: 2rem 0 0;
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
 }
 
 /* General (utilities) */
@@ -376,6 +392,31 @@ footer {
 }
 
 /* Media queries for responsiveness */
+@media screen and (max-width: 1120px) {
+  .hero {
+    margin: 5%;
+  }
+  .more-about {
+    margin: 5%;
+    padding: 1rem 3.5rem;
+  }
+  .projects {
+    margin: 5%;
+    padding: 1%;
+  }
+  .projects-container {
+    flex-direction: column;
+  }
+  .project-container {
+    width: 20.875rem;
+  }
+  .projects-disabled {
+    color: var(--primary-color);
+    margin: 0.5rem;
+    padding: none;
+  }
+}
+
 @media screen and (max-width: 720px) {
   nav {
     padding: 1.5rem 1rem;
@@ -415,7 +456,7 @@ footer {
   }
 
   .more-about {
-    margin-top: 2rem;
+    margin: 5%;
     padding: 1rem 3.5rem;
   }
 
@@ -425,11 +466,6 @@ footer {
 
   .more-about p {
     text-align: justify;
-  }
-
-  .icon {
-    width: 5.875rem;
-    height: 5.25rem;
   }
 
   .projects-container {
