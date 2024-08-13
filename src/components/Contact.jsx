@@ -14,7 +14,7 @@ function Contact() {
             <h2>Contáctame</h2>
             <div class="contact-form-container">
                 <div class="contact-form">
-                    <form action="https://formspree.io/f/xyylnggw" method="POST">
+                    <form action="https://formspree.io/f/xvgprnrd" method="POST">
                         <div class="form-control">
                             <label for="name">Nombre</label>
                             <input type="text" id="name" name="sender-name" placeholder="Insertar nombre" class="input-field" required />
