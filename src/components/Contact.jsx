@@ -10,24 +10,24 @@ function Contact() {
     //   }
     // desaparecerPlaceholder()
     return (
-        <section class="contact" id="contact">
+        <section className="contact" id="contact">
             <h2>Contáctame</h2>
-            <div class="contact-form-container">
-                <div class="contact-form">
+            <div className="contact-form-container">
+                <div className="contact-form">
                     <form action="https://formspree.io/f/xvgprnrd" method="POST">
-                        <div class="form-control">
-                            <label for="name">Nombre</label>
-                            <input type="text" id="name" name="sender-name" placeholder="Insertar nombre" class="input-field" required />
+                        <div className="form-control">
+                            <label htmlFor="name">Nombre</label>
+                            <input type="text" id="name" name="sender-name" placeholder="Insertar nombre" className="input-field" required />
                         </div>
-                        <div class="form-control">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="sender-email" placeholder="Insertar email" class="input-field" required />
+                        <div className="form-control">
+                            <label htmlFor="email">Email</label>
+                            <input type="email" id="email" name="sender-email" placeholder="Insertar email" className="input-field" required />
                         </div>
-                        <div class="form-control">
-                            <label for="message">Mensaje</label>
-                            <textarea id="message" cols="60" rows="10" placeholder="Escriba su mensaje" name="message" class="input-field" required ></textarea>
+                        <div className="form-control">
+                            <label htmlFor="message">Mensaje</label>
+                            <textarea id="message" cols="60" rows="10" placeholder="Escriba su mensaje" name="message" className="input-field" required ></textarea>
                         </div>
-                        <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+                        <input type="submit" value="Submit" id="submit-btn" className="submit-btn" />
                     </form>
                 </div>
             </div>
