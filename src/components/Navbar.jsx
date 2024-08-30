@@ -9,11 +9,11 @@ function Navbar() {
 
     return (
         <nav>
-            <h1>Artín Kemanian</h1>
+            <h1><Link to="https://artin-kemanian.github.io/Web-Portfolio/">Artín Kemanian</Link></h1>
             <ul className="navigation">
                 <li><Link to="/Web-Portfolio/abilities" className="nav-link">Habilidades</Link></li>
                 <li><Link to="/Web-Portfolio/projects" className="nav-link">Proyectos</Link></li>
-                <li><Link to="/Web-Portfolio/contact" className="nav-link">Contacto</Link></li> {/* Cambia a Link */}
+                <li><Link to="/Web-Portfolio/contact" className="nav-link">Contacto</Link></li>
             </ul>
             <button className="burger-menu" id="burger-menu" onClick={toggleMenu}>
                 <ion-icon className="bars" name="menu-outline"></ion-icon>

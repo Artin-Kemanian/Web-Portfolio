@@ -37,9 +37,9 @@ function App() {
       </div>
 
       <div class="socials">
-        <a href="https://www.linkedin.com/in/artin-kemanian/" target="_blank" ><img src="./icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+        <a href="https://www.linkedin.com/in/artinkemanian-akb/" target="_blank" ><img src="./icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
         <a href="https://github.com/Artin-Kemanian" target="_blank" ><img src="./icons8-github.gif" alt="Github" class="socicon" /></a>
-        <a href="https://www.instagram.com/artinkemanian/" target="_blank" ><img src="./icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon" /></a>
+        <a href="https://www.instagram.com/artukb_5/" target="_blank" ><img src="./icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon" /></a>
         <a href="Link inhabilitado" target="_blank" ><img src="./icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socicon" /></a>
       </div>
 
